@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		closeButton.style.fontSize = "3rem";
 		closeButton.style.color = "#fff";
 		closeButton.style.border= "none";
-		closeButton.style.cursor= "help";
+		closeButton.style.cursor= "pointer";
 		closeButton.style.transform = "translate(30px, 100px)"
 		closeButton.addEventListener("mouseenter", () => closeButton.style.color = "var(--coolor1)");
 		closeButton.addEventListener("mouseleave", () => closeButton.style.color = "#fff");
