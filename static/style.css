@@ -136,7 +136,7 @@ li{
 	justify-content: space-between;align-items: center;
 	/* flex-wrap: wrap; */
 	gap: 2rem;
-	background: rgb(0,0,0,0.1);
+	/* background: rgb(0,0,0,0.1); */
 	margin-bottom: 2rem;
 }
 h3{
