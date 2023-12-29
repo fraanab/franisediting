@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Francisco A. Video Editor</title>
+	<link rel="icon" type="image/png" href="./static/favico.png">
+
+	<link rel="stylesheet" href="./static/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<div id="navbtn"><i class="fa-solid fa-bars coolor"></i></div>
+
+	<nav class="navbar">
+		<a href="#home" id="homebtn">Francisco A.</a>
+
+		<ul class="nav-buttons">
+			<li><a href="https://drive.google.com/drive/folders/1i3DB153ADZXgTaoDx0vh1NflTYUdCMU6">Samples <i class="fa-solid fa-up-right-from-square"></i></a></li>
+			<li><a href="#rates">Pricing</a></li>
+			<li><a href="#contact">Contact Me</a></li>
+		</ul>
+	</nav>
+
+	<section class="hero" id="home">
+		<div class="hero-l">
+			
+			<p>Hey! My name is</p>
+			<h3 class="coolor">Francisco</h3>
+
+		</div>
+
+		<div class="hero-r">
+			
+			<p>I'm a</p>
+			<h3 class="coolor">Video Editor</h3>
+
+		</div>
+
+		<a href="#videos">
+			<i class="fa-solid fa-sort-down"></i>
+		</a>
+	</section>
+
+	<section class="yt-samples" id="videos">
+		
+		<div class="yt-sample">
+			<div class="yt-samples-content">
+				<h3><span class="coolor">YouTube</span> Videos</h3>
+				<p>
+					I've edited for Youtube channels who contacted me through freelance sites like fiverr, etc.
+					Turnaround time is usually of 5-7 days...
+				</p>
+			</div>
+
+			<div class="yt-sample-img">
+				<div class="yt-sample-img-image">
+					<img loading="lazy" src="./static/t_estoicismo.png" alt="youtube video editing" class="modal-trigger">
+				</div>
+				<img loading="lazy" src="./static/curve arrow click.png" alt="click to watch" title="click to watch" id="clicktowatch">
+			</div>
+		</div>
+
+		<div class="yt-sample">
+			<div class="yt-samples-content">
+				<h3>Different <span class="coolor">Styles</span> of Editing</h3>
+				<p>Talking head videos with motion graphics, Faceless videos, Gameplay videos, Corporate videos, Advertising videos, vlogs, explainer videos, etc, etc... I will adapt to the style of editing you are looking for.</p>
+			</div>
+
+			<div class="yt-sample-img-image">
+				<img loading="lazy" src="./static/t_fomo.png" alt="youtube video editing" class="modal-trigger">
+			</div>
+		</div>
+
+		<div class="yt-sample">
+			<div class="yt-samples-content">
+				<h3>Twitch<i class="fa-brands fa-twitch"></i> <span class="coolor">Highlights</span> Videos</h3>
+				<p>Twitch livestreams turned into a 10 minutes-or-less video!</p>
+			</div>
+
+			<div class="yt-sample-img-image">
+				<img loading="lazy" src="./static/t_twitch.png" alt="youtube video editing" class="modal-trigger">
+			</div>
+		</div>
+	</section>
+
+	<section class="short-form">
+		<h3><span class="coolor">Short</span> Form Content!</h3>
+		<p>YouTube Shorts, Tik Toks, and internet ADs</p>
+
+		<div class="short-form-content">
+			<img loading="lazy" src="./static/t_mars.png" alt="short form tiktoks and youtube shorts" class="modal-trigger">
+			<img loading="lazy" src="./static/t_puprings.png" alt="customized video ads" class="modal-trigger">
+			<img loading="lazy" src="./static/t_dropshipping.png" alt="dropshipping video ads" class="modal-trigger">
+		</div>
+	</section>
+
+	<div id="modal" class="modal">
+		<div class="modal-content">
+			<span class="close-btn" onclick="closeModal()">&times;</span>
+			<div class="video-container"></div>
+		</div>
+	</div>
+
+	<section class="pricing" id="rates">
+		<h3>PRICING</h3>
+
+		<p>Long form videos go for <span class="pricing-color">$50</span>. You get a <span class="coolor">discount</span> when you order <span class="coolor">in bulk</span> for the month.</p>
+		<p>Short form videos go for <span class="pricing-color">$25</span> each one.</p>
+	</section>
+
+	<section class="contact" id="contact">
+		<h3>Contact ME</h3>
+
+		<div class="contact-row">
+			
+			<a href="https://www.fiverr.com/s/9BrDrD">
+				<img loading="lazy" src="./static/fiverr.png" alt="fiverr url">
+			</a>
+
+			<a href="https://t.me/Frrancsco">
+				<img loading="lazy" src="./static/tele.png" alt="telegram me">
+			</a>
+
+			<a href="mailto:fraanab.oml@gmail.com">
+				<img loading="lazy" src="./static/email.png" alt="write me an email">
+			</a>
+
+			<a href="https://w.app/ymQgM6">
+				<img loading="lazy" src="./static/wapp.png" alt="send me a whatsapp message">
+			</a>
+
+		</div>
+
+	</section>
+
+	<footer>
+		<p>Francisco A.</p>
+		<p>+5492996585176</p>
+		<p>fraanab.oml@gmail.com</p>
+	</footer>
+
+	<script src="https://player.vimeo.com/api/player.js"></script>
+	<script src="./static/modals.js"></script>
+	<script id='fiverr-seller-widget-script-28ad36b7-85b9-47de-a925-87bb9aaab376' src='https://widgets.fiverr.com/api/v1/seller/seems_good?widget_id=28ad36b7-85b9-47de-a925-87bb9aaab376' data-config='{"category_name":"Video \u0026 Animation"}' async='true' defer='true'></script>
+	<script>
+		// navbar
+		document.addEventListener("DOMContentLoaded", function() {
+			const navbtn = document.getElementById("navbtn");
+			const navbar = document.querySelector(".navbar");
+
+			navbtn.addEventListener("click", function() {
+				const isNavbarVisible = navbar.style.top === "0px";
+				navbar.style.top = isNavbarVisible ? "-100%" : "0";
+			});
+		});
+	</script>
+</body>
+</html>
