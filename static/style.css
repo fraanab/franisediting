@@ -86,6 +86,8 @@ li{
 .hero a{
 	position: absolute;
 	bottom: 3rem;
+	right: 3rem;
+	z-index: 3;
 	font-size: 6rem;
 	color: var(--coolor1);
 	/* filter: drop-shadow(3px 3px #555); */
@@ -300,11 +302,13 @@ footer{
 	}
 
 	.hero-l h3 span{
-		bottom: -3rem;
+		bottom: -5rem;
 		font-size: 10vw;
 		transform: rotate(-2deg);
 	}
-
+	.hero a{
+		right: 4rem;
+	}
 	.yt-sample{
 		flex-wrap: wrap;
 		display: flex;flex-direction: column;
