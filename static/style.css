@@ -158,6 +158,10 @@ h3{
 	cursor: pointer;
 }
 
+.yt-sample-img-image img:hover{
+	box-shadow:0 0 10px var(--coolor1)
+}
+
 /* .modal-content {
   position: fixed;
   top: 50%;
