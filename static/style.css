@@ -188,6 +188,28 @@ h3{
 	box-shadow:0 0 10px var(--coolor1)
 }
 
+.bar{
+	width: 100%;
+	padding: 2rem 1rem;
+	display: flex;flex-direction: column;
+	align-items: center;justify-content: start;
+	gap: 1rem;
+	color: #888;
+	transition: 0s;
+}
+
+.bar:hover{
+	color: #fff;
+}
+.bar:hover h2{
+	color: var(--coolor1);
+}
+
+.bar h1{
+	font-size: 3rem;
+	font-family: 'RubikM';
+}
+
 /* .modal-content {
   position: fixed;
   top: 50%;
@@ -242,15 +264,23 @@ h3{
 .pricing{
 	color: #fff;
 	width: 100%;
-	padding: 2rem 5rem;
+	padding: 2rem 5rem 0rem 5rem;
 }
 .pricing h3{
 	text-align:center;
+	border-top: 1px solid #fff;
+	padding-top: 1rem;
 }
+.pricing p:last-child{
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #fff;
+}
+
 .pricing p{
 	font-size: 1.5rem;
 	margin: 2rem 0;
 }
+
 .pricing-color{
 	font-family: 'RubikM';
 	color: var(--coolor1);
@@ -259,7 +289,7 @@ h3{
 
 .contact{
 	color:#fff;
-	padding: 2rem 3rem;
+	padding: 0rem 3rem 2rem 3rem;
 	width: 100%;
 	display: flex;flex-direction: column;
 	align-items: start;justify-content: start;
@@ -280,7 +310,7 @@ h3{
 	align-items: center;justify-content: center;
 }
 .contact-row img{
-	width: 64px;
+	width: 40px;
 }
 
 .contact img:hover{

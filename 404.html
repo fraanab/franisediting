@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Elevate your brand with professional video editing. Transform your vision into captivating stories from YouTube to short-form videos. Let's discuss your project">
+	<meta property="og:description" content="Francisco A. - Freelance video editor">
+	<meta name="keywords" content="Francisco, Francisco Abalos, Francisco A., Freelance, video, video editor, editor, youtube editor, youtube, Argentino, editor argentino, premiere, vegas pro">
+
+	<title>404 - Francisco A. Video Editor</title>
+	<meta property="og:title" content="Francisco A. Video Editor">
+	<meta property="og:image" content="https://i.pinimg.com/564x/6b/a6/89/6ba6897c1f9d71e269bb239b5129c803.jpg">
+	<link rel="icon" type="image/png" href="./static/favico.png">
+
+	<link rel="stylesheet" href="./static/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<style>
+		*{margin: 0;padding: 0;box-sizing: border-box;}
+		.missing-wrapper{
+			width: 100%;height: 90vh;
+			display: flex;align-items: center;justify-content: center;
+			flex-direction: column;
+		}
+		.missing-wrapper-block{
+			font-family: 'RubikM', sans-serif;
+			color: #fff;
+
+			padding: 2rem;
+			display: flex;flex-direction: column;
+			gap: 1rem;
+		}
+		.missing-wrapper-block a{
+			color: var(--coolor1);
+			text-decoration: none;
+			font-size: 1.5rem;
+		}
+	</style>
+</head>
+<body>
+	<div id="navbtn"><i class="fa-solid fa-bars coolor"></i></div>
+
+	<nav class="navbar">
+		<a href="https://franisediting.online/#home" id="homebtn">Francisco A. - <span class="coolor">HOME</span></a>
+
+		<ul class="nav-buttons">
+			<li><a target="_blank" href="https://drive.google.com/drive/folders/1i3DB153ADZXgTaoDx0vh1NflTYUdCMU6">Samples <i class="fa-solid fa-up-right-from-square"></i></a></li>
+			<li><a href="https://franisediting.online/#rates">Pricing</a></li>
+			<li><a href="https://franisediting.online/#contact">Contact Me</a></li>
+		</ul>
+	</nav>
+
+	<div class="missing-wrapper">
+
+		<div class="missing-wrapper-block">
+			<h1>Uh oh... <span class="coolor">404</span></h1>
+			<p>
+				Let's head back to the <a href="https://franisediting.online">Main Page</a>.
+			</p>
+		</div>
+		
+	</div>
+
+	<footer>
+		<p>Francisco A. - Video Editing Services</p>
+		<p>+5492996585176</p>
+		<p>fraanab.oml@gmail.com</p>
+	</footer>
+
+	<script>
+		// navbar
+		document.addEventListener("DOMContentLoaded", function() {
+			const navbtn = document.getElementById("navbtn");
+			const navbar = document.querySelector(".navbar");
+
+			navbtn.addEventListener("click", function() {
+				const isNavbarVisible = navbar.style.top === "0px";
+				navbar.style.top = isNavbarVisible ? "-100%" : "0";
+			});
+		});
+	</script>
+</body>
+</html>
