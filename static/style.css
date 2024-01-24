@@ -317,6 +317,53 @@ h3{
 	filter: sepia(1) saturate(20) hue-rotate(130deg);
 }
 
+.workflow{
+	padding: 0 3rem 2rem 3rem;
+	color: #fff;
+
+	display: flex;flex-direction: column;
+	gap: 1rem;align-items: center;justify-content: center;
+}
+.workflow h2{
+	font-size: 3rem;
+	font-family: 'RubikM', sans-serif;
+	text-align:center;
+}
+.workflow-grid{
+	display: flex;flex-direction: row;
+	gap: 10px;
+	flex-wrap:wrap;
+	justify-content: center;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 3rem;
+}
+.w-g-block{
+	padding: 1rem;
+	background: #222;
+	max-width: 300px; min-height: 240px;
+	display: flex;flex-direction: column;
+	gap: 10px;align-items: center;justify-content: space-between;
+	border: 1px solid #333;
+}
+.w-g-block:hover{
+	transform: scale(1.1);
+	box-shadow: 0 0 15px #000;
+	cursor: default;
+}
+.w-g-block:hover .w-g-b-title, .w-g-block:hover .w-icon{
+	color: var(--coolor1);
+}
+.w-g-block:hover p:last-of-type{
+	color: #fff;
+}
+.w-g-b-title{font-size: 2rem;font-family: 'RubikM', sans-serif;text-align:center;}
+.w-icon{
+	font-size: 2rem;
+}
+.w-g-block p:last-of-type{
+	color: #aaa;
+}
+
 footer{
 	width: 100%;
 	background: #222;
