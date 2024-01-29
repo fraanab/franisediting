@@ -62,7 +62,10 @@ li{
 }
 
 .hero p{font-size: 3vh;text-shadow: none;-webkit-text-stroke: 1px #111;}
-.hero h3{font-size: 10vh;}
+.hero h3{
+	font-size: 10vh;
+	-webkit-text-stroke: 1px #fff;
+}
 
 .hero-l,
 .hero-r{
@@ -73,11 +76,12 @@ li{
 .videoeditor{
 	font-family: 'RubikM';
 	position: relative;
+	-webkit-text-stroke: 1px #fff;
 }
 .hero-l h3 span{
 	position: absolute;
 	left: 0;
-	bottom: -4rem;
+	bottom: -5rem;
 	font-size: 12vh;
 	transform: rotate(-2deg);
 }
