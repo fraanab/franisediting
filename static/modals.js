@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	// Define a list of video IDs
 	const videoList = {
 		video_1: '898576062',
-		video_2: '898578983',
+		video_2: '939395772',
 		video_3: '898580348',
 		video_4: '898581381',
 		video_5: '898582177',
