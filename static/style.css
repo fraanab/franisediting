@@ -301,7 +301,7 @@ h3{
 
 
 .pricing-wrap{
-	padding:2rem 5rem ;
+	padding:0rem 5rem 2rem 5rem;
 	color: #fff;
 	width: 100%;
 	display: flex;flex-direction: column;
@@ -618,5 +618,8 @@ footer{
 	.samplesSection video{
 		padding: 2rem;
 		width: 100%;
+	}
+	.pricing-wrap{
+		padding: 1rem 5rem;
 	}
 }
