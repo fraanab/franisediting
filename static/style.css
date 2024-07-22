@@ -245,6 +245,9 @@ h3{
 	align-items: center;justify-content: center;
 	gap: 1rem;
 }
+.short-form video{
+	width: 1100px;
+}
 .short-form h3{
 	width: calc(100% - 2rem);
 	text-align:center;
@@ -464,7 +467,7 @@ h3{
 	align-items: center;justify-content: center;
 }
 .samplesSection video{
-	width: 60vw;
+	width: 1100px;
 	padding-bottom: 2rem;
 }
 .samplesSectionDivider{
@@ -486,6 +489,9 @@ footer{
 	/* .hero-r h3{font-size: 3rem;} */
 }
 @media (max-width: 1100px) {
+	.samplesSection video{
+		width: 100%;
+	}
 	.hero img{
 		filter: blur(3px);
 	}
@@ -508,6 +514,15 @@ footer{
 	}
 	.yt-samples-content{
 		width: 100%;
+	}
+
+	.short-form video{
+		width: 740px;
+	}
+}
+@media (max-width: 812px) {
+	.short-form video{
+		width: 360px;
 	}
 }
 
@@ -562,6 +577,12 @@ footer{
 	.short-form h3{
 		font-size: 2.5rem;
 	}
+
+	.short-form video{
+		width: 100%;
+		padding: 0;
+	}
+
 	.pricing{
 		padding: 2rem;
 	}
