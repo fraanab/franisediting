@@ -11,7 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
 		video_3: '898580348',
 		video_4: '898581381',
 		video_5: '898582177',
-		video_6: '898582700',
+		video_6: '1113998699',
+		//video_6: '898582700',
 	};
 
 	modalTrigger.forEach((trigger, index) => {
