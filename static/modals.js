@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		//video_1: '898576062',
 		video_1: '1114051305',
 		video_2: '939395772',
-		video_3: '898580348',
+		//video_3: '898580348',
 		video_4: '898581381',
 		video_5: '898582177',
 		video_6: '1113998699',
